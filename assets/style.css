@@ -246,9 +246,7 @@ footer{
         width: 80%;
     }
 
-    .cart_btn{
-        width: 90%;
-    }
+
 }
 
 @media screen and (max-width:1450px)  {
@@ -272,5 +270,60 @@ footer{
         font-size: 78%;
       }
 
+}
 
+@media screen and (max-width:1020px)  {
+    .paan>img, .slider, .groceries, .dairy_section>h2, .dairy{
+        width: 100%
+    }
+
+    .groceries{
+        padding: 0rem 2rem;
+        justify-content: space-between;
+    }
+    .groceries>img {
+        width: 12%;
+    }
+    .dairy_section{
+        padding: 0rem 1rem;
+    }
+}
+
+@media screen and (max-width:900px)  {
+    .login, .search{
+        display: none !important;
+    }
+    .container>div{
+        width:25%;
+    }
+    .location{
+        width: 30% !important;
+    }
+    .container{
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+}
+
+
+@media screen and (max-width:600px)  {
+
+    .groceries>img{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:560px)  {
+
+    .location{
+        width: 50% !important;
+    }
+}
+
+
+@media screen and (max-width:400px)  {
+
+    .groceries>img{
+        width: 30%;
+    }
 }
